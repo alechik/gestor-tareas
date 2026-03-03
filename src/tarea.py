@@ -5,7 +5,7 @@ Clase Tarea.
 class Tarea:
     def __init__(self, id, descripcion, completada=False):
         """
-        Constructor de la clase.
+        Constructor:
 
         id: Identificador único de la tarea
         descripcion: Descripción de la tarea
