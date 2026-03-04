@@ -57,6 +57,19 @@ class GestorTareas:
         """
         return [tarea for tarea in self.tareas if not tarea.completada]
 
+    def listar_tareas(self):
+        """
+        Devuelve todas las tareas en un formato apto para JSON.
+        """
+        return [
+            {
+                "id": tarea.id,
+                "descripcion": tarea.descripcion,
+                "completada": tarea.completada,
+            }
+            for tarea in self.tareas
+        ]
+
     def obtener_tarea_por_id(self, id_tarea):
         """
         Busca una tarea por ID.

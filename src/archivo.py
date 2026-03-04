@@ -4,7 +4,6 @@ Clase encargada guardar tareas en un archivo de texto.
 
 from src.tarea import Tarea
 
-
 class ArchivoTareas:
     def __init__(self, ruta_archivo):
         """
