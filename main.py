@@ -1,5 +1,13 @@
+"""
+Main de la aplicación.
+"""
+
+from src.consola import ConsolaTareas
+
+
 def main():
-    pass
+    consola = ConsolaTareas()
+    consola.ejecutar()
 
 
 if __name__ == "__main__":
