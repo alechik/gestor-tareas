@@ -4,7 +4,6 @@ Clase que centraliza y gestiona la lógica del sistema.
 
 from src.tarea import Tarea
 
-
 class GestorTareas:
     def __init__(self):
         """
